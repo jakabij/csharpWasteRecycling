@@ -6,10 +6,10 @@ namespace wasteRecycling
     {
         static void Main(string[] args)
         {
-            Garbage plastic = new PlasticGarbage("Mûanyag Kanál", true);
-            Garbage paper = new PaperGarbage("Papir pohár", true);
-            Garbage garbage = new Garbage("Kenyér");
-            Garbage garbage2 = new Garbage("Romlott gyümölcs");
+            Garbage plastic = new PlasticGarbage("Plastic spoon", true);
+            Garbage paper = new PaperGarbage("Paper cup", true);
+            Garbage garbage = new Garbage("Bread");
+            Garbage garbage2 = new Garbage("Rotten fruit");
 
             Dustbin dustb = new Dustbin();
             dustb.color = "Red";
